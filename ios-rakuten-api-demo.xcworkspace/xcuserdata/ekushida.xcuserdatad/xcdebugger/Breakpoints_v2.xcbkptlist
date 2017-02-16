@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ios-rakuten-api-demoTests/RouterTest.swift"
+            timestampString = "508977196.976495"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testURLRequest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_rakuten_api_demoTests.RouterTest.testURLRequest () -&gt; ()"
+                  moduleName = "ios-rakuten-api-demoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekushida/Desktop/ios-rakuten-api-demo/ios-rakuten-api-demoTests/RouterTest.swift"
+                  timestampString = "508977131.516071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "634">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_rakuten_api_demoTests.RouterTest.(testURLRequest () -&gt; ()).(implicit closure #1)"
+                  moduleName = "ios-rakuten-api-demoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekushida/Desktop/ios-rakuten-api-demo/ios-rakuten-api-demoTests/RouterTest.swift"
+                  timestampString = "508977131.519896"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_rakuten_api_demoTests.RouterTest.(testURLRequest () -&gt; ()).(implicit closure #2)"
+                  moduleName = "ios-rakuten-api-demoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ekushida/Desktop/ios-rakuten-api-demo/ios-rakuten-api-demoTests/RouterTest.swift"
+                  timestampString = "508977131.522051"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

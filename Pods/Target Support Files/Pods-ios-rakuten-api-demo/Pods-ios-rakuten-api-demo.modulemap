@@ -1,0 +1,6 @@
+framework module Pods_ios_rakuten_api_demo {
+  umbrella header "Pods-ios-rakuten-api-demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

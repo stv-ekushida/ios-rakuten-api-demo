@@ -13,7 +13,6 @@ https://webservice.rakuten.co.jp/api/booksbooksearch/
 | iOS | 10.0〜 |
 
 ## Usage Library
-git cloneしたあとに、pod installしてください。
 
 | Library | Description |
 |---|---|

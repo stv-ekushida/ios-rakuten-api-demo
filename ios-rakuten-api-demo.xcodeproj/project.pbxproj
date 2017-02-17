@@ -1,1335 +1,684 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>03E1DC958F5C602B58AB3D69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ios-rakuten-api-demoTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>084C26B326BB4EEABEE6363C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2167132C73FC378CA3CB6429</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0A4E8195CDE002F2E6B326A7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [ $? != 0 ] ; then
-    # print error to STDERR
-    echo "error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation." &gt;&amp;2
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>1E6F9C1ADB20B85CECF0A29C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2167132C73FC378CA3CB6429</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_ios_rakuten_api_demo.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5243B26864079A89A671C4BE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [ $? != 0 ] ; then
-    # print error to STDERR
-    echo "error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation." &gt;&amp;2
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>6CFA32617C5078630AC627CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2167132C73FC378CA3CB6429</string>
-				<string>CB6263609ABA885E0000C153</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>73C07387EE2C2EC8BE2ED676</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ios-rakuten-api-demo.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ios-rakuten-api-demo/Pods-ios-rakuten-api-demo.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>942EF014B934E2377ABEF38E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ios-rakuten-api-demo.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ios-rakuten-api-demo/Pods-ios-rakuten-api-demo.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A06C3DEDB6D40E926B727170</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>73C07387EE2C2EC8BE2ED676</string>
-				<string>942EF014B934E2377ABEF38E</string>
-				<string>03E1DC958F5C602B58AB3D69</string>
-				<string>C5A2942E7D629F7AF99DFB02</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5C3977774347A7FCC18142A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>BC0716C51E565A8100FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6CFA32617C5078630AC627CC</string>
-				<string>A06C3DEDB6D40E926B727170</string>
-				<string>BC0716CF1E565A8100FED2F4</string>
-				<string>BC0716D01E565A8100FED2F4</string>
-				<string>BC0716E51E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716C61E565A8100FED2F4</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0820</string>
-				<key>LastUpgradeCheck</key>
-				<string>0820</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Kushida&#12288;Eiji</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>BC0716CD1E565A8100FED2F4</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>UE5DCQPTRB</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-					</dict>
-					<key>BC0716E11E565A8100FED2F4</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>8.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>UE5DCQPTRB</string>
-						<key>ProvisioningStyle</key>
-						<string>Automatic</string>
-						<key>TestTargetID</key>
-						<string>BC0716CD1E565A8100FED2F4</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>BC0716C91E565A8100FED2F4</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>BC0716C51E565A8100FED2F4</string>
-			<key>productRefGroup</key>
-			<string>BC0716CF1E565A8100FED2F4</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>BC0716CD1E565A8100FED2F4</string>
-				<string>BC0716E11E565A8100FED2F4</string>
-			</array>
-		</dict>
-		<key>BC0716C91E565A8100FED2F4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BC0716E91E565A8100FED2F4</string>
-				<string>BC0716EA1E565A8100FED2F4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BC0716CA1E565A8100FED2F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC0716F51E565C4200FED2F4</string>
-				<string>BC0716D41E565A8100FED2F4</string>
-				<string>BC0716F71E565C6C00FED2F4</string>
-				<string>BC0716D21E565A8100FED2F4</string>
-				<string>BC0716F31E565C1900FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC0716CB1E565A8100FED2F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>084C26B326BB4EEABEE6363C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC0716CC1E565A8100FED2F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC0716DC1E565A8100FED2F4</string>
-				<string>BC0716D91E565A8100FED2F4</string>
-				<string>BC0716D71E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC0716CD1E565A8100FED2F4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BC0716EB1E565A8100FED2F4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0A4E8195CDE002F2E6B326A7</string>
-				<string>BC0716CA1E565A8100FED2F4</string>
-				<string>BC0716CB1E565A8100FED2F4</string>
-				<string>BC0716CC1E565A8100FED2F4</string>
-				<string>E4FD1C6BA00033146128CAAD</string>
-				<string>CC3BC45EC6665859C1A9F4E4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ios-rakuten-api-demo</string>
-			<key>productName</key>
-			<string>ios-rakuten-api-demo</string>
-			<key>productReference</key>
-			<string>BC0716CE1E565A8100FED2F4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>BC0716CE1E565A8100FED2F4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ios-rakuten-api-demo.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BC0716CF1E565A8100FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC0716CE1E565A8100FED2F4</string>
-				<string>BC0716E21E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716D01E565A8100FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC0716F91E565CED00FED2F4</string>
-				<string>BC0716F81E565CE600FED2F4</string>
-				<string>BC0716FA1E565CFF00FED2F4</string>
-				<string>BC0716F11E565C0F00FED2F4</string>
-				<string>BC0717041E56623D00FED2F4</string>
-				<string>BC0716DD1E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ios-rakuten-api-demo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716D11E565A8100FED2F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716D21E565A8100FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716D11E565A8100FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716D31E565A8100FED2F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716D41E565A8100FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716D31E565A8100FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716D51E565A8100FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC0716D61E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>path</key>
-			<string>.</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716D61E565A8100FED2F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716D71E565A8100FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716D51E565A8100FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716D81E565A8100FED2F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716D91E565A8100FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716D81E565A8100FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716DA1E565A8100FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC0716DB1E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>path</key>
-			<string>.</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716DB1E565A8100FED2F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716DC1E565A8100FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716DA1E565A8100FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716DD1E565A8100FED2F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716DE1E565A8100FED2F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC0716FF1E5660FD00FED2F4</string>
-				<string>BC0716FD1E565D5E00FED2F4</string>
-				<string>BC0716E71E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC0716DF1E565A8100FED2F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C36EE97A00AC15EF1FAB6D21</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC0716E01E565A8100FED2F4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BC0716E11E565A8100FED2F4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BC0716EE1E565A8100FED2F4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5243B26864079A89A671C4BE</string>
-				<string>BC0716DE1E565A8100FED2F4</string>
-				<string>BC0716DF1E565A8100FED2F4</string>
-				<string>BC0716E01E565A8100FED2F4</string>
-				<string>A5C3977774347A7FCC18142A</string>
-				<string>1E6F9C1ADB20B85CECF0A29C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>BC0716E41E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ios-rakuten-api-demoTests</string>
-			<key>productName</key>
-			<string>ios-rakuten-api-demoTests</string>
-			<key>productReference</key>
-			<string>BC0716E21E565A8100FED2F4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>BC0716E21E565A8100FED2F4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ios-rakuten-api-demoTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BC0716E31E565A8100FED2F4</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>BC0716C61E565A8100FED2F4</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>BC0716CD1E565A8100FED2F4</string>
-			<key>remoteInfo</key>
-			<string>ios-rakuten-api-demo</string>
-		</dict>
-		<key>BC0716E41E565A8100FED2F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>BC0716CD1E565A8100FED2F4</string>
-			<key>targetProxy</key>
-			<string>BC0716E31E565A8100FED2F4</string>
-		</dict>
-		<key>BC0716E51E565A8100FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC0717031E56622D00FED2F4</string>
-				<string>BC0717001E5661CB00FED2F4</string>
-				<string>BC0716FB1E565D4500FED2F4</string>
-				<string>BC0717051E56624C00FED2F4</string>
-				<string>BC0716E81E565A8100FED2F4</string>
-				<string>BC0716E61E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ios-rakuten-api-demoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716E61E565A8100FED2F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ios_rakuten_api_demoTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716E71E565A8100FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716E61E565A8100FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716E81E565A8100FED2F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716E91E565A8100FED2F4</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
-				<string>DEBUG</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BC0716EA1E565A8100FED2F4</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INFINITE_RECURSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Owholemodule</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BC0716EB1E565A8100FED2F4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BC0716EC1E565A8100FED2F4</string>
-				<string>BC0716ED1E565A8100FED2F4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BC0716EC1E565A8100FED2F4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>73C07387EE2C2EC8BE2ED676</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>UE5DCQPTRB</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ios-rakuten-api-demo/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jp.st-ventures.ios-rakuten-api-demo</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BC0716ED1E565A8100FED2F4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>942EF014B934E2377ABEF38E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>UE5DCQPTRB</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ios-rakuten-api-demo/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jp.st-ventures.ios-rakuten-api-demo</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BC0716EE1E565A8100FED2F4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BC0716EF1E565A8100FED2F4</string>
-				<string>BC0716F01E565A8100FED2F4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BC0716EF1E565A8100FED2F4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>03E1DC958F5C602B58AB3D69</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>UE5DCQPTRB</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ios-rakuten-api-demoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jp.st-ventures.ios-rakuten-api-demoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ios-rakuten-api-demo.app/ios-rakuten-api-demo</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BC0716F01E565A8100FED2F4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C5A2942E7D629F7AF99DFB02</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
-				<string>YES</string>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>DEVELOPMENT_TEAM</key>
-				<string>UE5DCQPTRB</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ios-rakuten-api-demoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>jp.st-ventures.ios-rakuten-api-demoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SWIFT_VERSION</key>
-				<string>3.0</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ios-rakuten-api-demo.app/ios-rakuten-api-demo</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BC0716F11E565C0F00FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC0716F21E565C1900FED2F4</string>
-				<string>BC0716F41E565C4200FED2F4</string>
-				<string>BC0716F61E565C6C00FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Utils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716F21E565C1900FED2F4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>APIClient.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716F31E565C1900FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716F21E565C1900FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716F41E565C4200FED2F4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>NetworkManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716F51E565C4200FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716F41E565C4200FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716F61E565C6C00FED2F4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Router.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716F71E565C6C00FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716F61E565C6C00FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716F81E565CE600FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Models</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716F91E565CED00FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC0716D51E565A8100FED2F4</string>
-				<string>BC0716D31E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Controllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716FA1E565CFF00FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC0716D11E565A8100FED2F4</string>
-				<string>BC0716D81E565A8100FED2F4</string>
-				<string>BC0716DA1E565A8100FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Others</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716FB1E565D4500FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BC0716FE1E5660FD00FED2F4</string>
-				<string>BC0716FC1E565D5E00FED2F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Utils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716FC1E565D5E00FED2F4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>RouterTest.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716FD1E565D5E00FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716FC1E565D5E00FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0716FE1E5660FD00FED2F4</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>NetworkManagerTest.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0716FF1E5660FD00FED2F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BC0716FE1E5660FD00FED2F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BC0717001E5661CB00FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Models</string>
-			<key>path</key>
-			<string>Models</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0717031E56622D00FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Controllers</string>
-			<key>path</key>
-			<string>Controllers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0717041E56623D00FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Views</string>
-			<key>path</key>
-			<string>Views</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC0717051E56624C00FED2F4</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Views</string>
-			<key>path</key>
-			<string>Views</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C36EE97A00AC15EF1FAB6D21</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB6263609ABA885E0000C153</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C5A2942E7D629F7AF99DFB02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ios-rakuten-api-demoTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB6263609ABA885E0000C153</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_ios_rakuten_api_demoTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>CC3BC45EC6665859C1A9F4E4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ios-rakuten-api-demo/Pods-ios-rakuten-api-demo-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E4FD1C6BA00033146128CAAD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>[CP] Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ios-rakuten-api-demo/Pods-ios-rakuten-api-demo-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>BC0716C61E565A8100FED2F4</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084C26B326BB4EEABEE6363C /* Pods_ios_rakuten_api_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2167132C73FC378CA3CB6429 /* Pods_ios_rakuten_api_demo.framework */; };
+		BC0716D21E565A8100FED2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716D11E565A8100FED2F4 /* AppDelegate.swift */; };
+		BC0716D41E565A8100FED2F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716D31E565A8100FED2F4 /* ViewController.swift */; };
+		BC0716D71E565A8100FED2F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0716D51E565A8100FED2F4 /* Main.storyboard */; };
+		BC0716D91E565A8100FED2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0716D81E565A8100FED2F4 /* Assets.xcassets */; };
+		BC0716DC1E565A8100FED2F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0716DA1E565A8100FED2F4 /* LaunchScreen.storyboard */; };
+		BC0716E71E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716E61E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift */; };
+		BC0716F31E565C1900FED2F4 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716F21E565C1900FED2F4 /* APIClient.swift */; };
+		BC0716F51E565C4200FED2F4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716F41E565C4200FED2F4 /* NetworkManager.swift */; };
+		BC0716F71E565C6C00FED2F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716F61E565C6C00FED2F4 /* Router.swift */; };
+		BC0716FD1E565D5E00FED2F4 /* RouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716FC1E565D5E00FED2F4 /* RouterTest.swift */; };
+		BC0716FF1E5660FD00FED2F4 /* NetworkManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716FE1E5660FD00FED2F4 /* NetworkManagerTest.swift */; };
+		BC4892241E5688E300088AC7 /* BookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892211E5688E300088AC7 /* BookItem.swift */; };
+		BC4892251E5688E300088AC7 /* BookTotalSearchParamsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892221E5688E300088AC7 /* BookTotalSearchParamsBuilder.swift */; };
+		BC4892261E5688E300088AC7 /* BookTotalSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892231E5688E300088AC7 /* BookTotalSearchResults.swift */; };
+		BC48922B1E56891800088AC7 /* BookItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892271E56891800088AC7 /* BookItemTest.swift */; };
+		BC48922C1E56891800088AC7 /* booktotal_search.json in Resources */ = {isa = PBXBuildFile; fileRef = BC4892281E56891800088AC7 /* booktotal_search.json */; };
+		BC48922D1E56891800088AC7 /* BookTotalSearchResultsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892291E56891800088AC7 /* BookTotalSearchResultsTest.swift */; };
+		BC48922E1E56891800088AC7 /* MocBookTotalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48922A1E56891800088AC7 /* MocBookTotalList.swift */; };
+		C36EE97A00AC15EF1FAB6D21 /* Pods_ios_rakuten_api_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6263609ABA885E0000C153 /* Pods_ios_rakuten_api_demoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC0716E31E565A8100FED2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC0716C61E565A8100FED2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC0716CD1E565A8100FED2F4;
+			remoteInfo = "ios-rakuten-api-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E1DC958F5C602B58AB3D69 /* Pods-ios-rakuten-api-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-rakuten-api-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2167132C73FC378CA3CB6429 /* Pods_ios_rakuten_api_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_rakuten_api_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C07387EE2C2EC8BE2ED676 /* Pods-ios-rakuten-api-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-rakuten-api-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-rakuten-api-demo/Pods-ios-rakuten-api-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		942EF014B934E2377ABEF38E /* Pods-ios-rakuten-api-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-rakuten-api-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-rakuten-api-demo/Pods-ios-rakuten-api-demo.release.xcconfig"; sourceTree = "<group>"; };
+		BC0716CE1E565A8100FED2F4 /* ios-rakuten-api-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-rakuten-api-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0716D11E565A8100FED2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC0716D31E565A8100FED2F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC0716D61E565A8100FED2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC0716D81E565A8100FED2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0716DB1E565A8100FED2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0716DD1E565A8100FED2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0716E21E565A8100FED2F4 /* ios-rakuten-api-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-rakuten-api-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0716E61E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_rakuten_api_demoTests.swift; sourceTree = "<group>"; };
+		BC0716E81E565A8100FED2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0716F21E565C1900FED2F4 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BC0716F41E565C4200FED2F4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BC0716F61E565C6C00FED2F4 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BC0716FC1E565D5E00FED2F4 /* RouterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterTest.swift; sourceTree = "<group>"; };
+		BC0716FE1E5660FD00FED2F4 /* NetworkManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTest.swift; sourceTree = "<group>"; };
+		BC4892211E5688E300088AC7 /* BookItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookItem.swift; sourceTree = "<group>"; };
+		BC4892221E5688E300088AC7 /* BookTotalSearchParamsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchParamsBuilder.swift; sourceTree = "<group>"; };
+		BC4892231E5688E300088AC7 /* BookTotalSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchResults.swift; sourceTree = "<group>"; };
+		BC4892271E56891800088AC7 /* BookItemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookItemTest.swift; sourceTree = "<group>"; };
+		BC4892281E56891800088AC7 /* booktotal_search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = booktotal_search.json; sourceTree = "<group>"; };
+		BC4892291E56891800088AC7 /* BookTotalSearchResultsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchResultsTest.swift; sourceTree = "<group>"; };
+		BC48922A1E56891800088AC7 /* MocBookTotalList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MocBookTotalList.swift; sourceTree = "<group>"; };
+		C5A2942E7D629F7AF99DFB02 /* Pods-ios-rakuten-api-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-rakuten-api-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB6263609ABA885E0000C153 /* Pods_ios_rakuten_api_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_rakuten_api_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0716CB1E565A8100FED2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084C26B326BB4EEABEE6363C /* Pods_ios_rakuten_api_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0716DF1E565A8100FED2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36EE97A00AC15EF1FAB6D21 /* Pods_ios_rakuten_api_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CFA32617C5078630AC627CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2167132C73FC378CA3CB6429 /* Pods_ios_rakuten_api_demo.framework */,
+				CB6263609ABA885E0000C153 /* Pods_ios_rakuten_api_demoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A06C3DEDB6D40E926B727170 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73C07387EE2C2EC8BE2ED676 /* Pods-ios-rakuten-api-demo.debug.xcconfig */,
+				942EF014B934E2377ABEF38E /* Pods-ios-rakuten-api-demo.release.xcconfig */,
+				03E1DC958F5C602B58AB3D69 /* Pods-ios-rakuten-api-demoTests.debug.xcconfig */,
+				C5A2942E7D629F7AF99DFB02 /* Pods-ios-rakuten-api-demoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC0716C51E565A8100FED2F4 = {
+			isa = PBXGroup;
+			children = (
+				6CFA32617C5078630AC627CC /* Frameworks */,
+				A06C3DEDB6D40E926B727170 /* Pods */,
+				BC0716CF1E565A8100FED2F4 /* Products */,
+				BC0716D01E565A8100FED2F4 /* ios-rakuten-api-demo */,
+				BC0716E51E565A8100FED2F4 /* ios-rakuten-api-demoTests */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0716CF1E565A8100FED2F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0716CE1E565A8100FED2F4 /* ios-rakuten-api-demo.app */,
+				BC0716E21E565A8100FED2F4 /* ios-rakuten-api-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0716D01E565A8100FED2F4 /* ios-rakuten-api-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BC0716F91E565CED00FED2F4 /* Controllers */,
+				BC0716F81E565CE600FED2F4 /* Models */,
+				BC0716FA1E565CFF00FED2F4 /* Others */,
+				BC0716F11E565C0F00FED2F4 /* Utils */,
+				BC0717041E56623D00FED2F4 /* Views */,
+				BC0716DD1E565A8100FED2F4 /* Info.plist */,
+			);
+			path = "ios-rakuten-api-demo";
+			sourceTree = "<group>";
+		};
+		BC0716E51E565A8100FED2F4 /* ios-rakuten-api-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC0717031E56622D00FED2F4 /* Controllers */,
+				BC0717001E5661CB00FED2F4 /* Models */,
+				BC0716FB1E565D4500FED2F4 /* Utils */,
+				BC0717051E56624C00FED2F4 /* Views */,
+				BC0716E81E565A8100FED2F4 /* Info.plist */,
+				BC0716E61E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift */,
+			);
+			path = "ios-rakuten-api-demoTests";
+			sourceTree = "<group>";
+		};
+		BC0716F11E565C0F00FED2F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC0716F21E565C1900FED2F4 /* APIClient.swift */,
+				BC0716F41E565C4200FED2F4 /* NetworkManager.swift */,
+				BC0716F61E565C6C00FED2F4 /* Router.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BC0716F81E565CE600FED2F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC4892211E5688E300088AC7 /* BookItem.swift */,
+				BC4892221E5688E300088AC7 /* BookTotalSearchParamsBuilder.swift */,
+				BC4892231E5688E300088AC7 /* BookTotalSearchResults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC0716F91E565CED00FED2F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC0716D51E565A8100FED2F4 /* Main.storyboard */,
+				BC0716D31E565A8100FED2F4 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC0716FA1E565CFF00FED2F4 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BC0716D11E565A8100FED2F4 /* AppDelegate.swift */,
+				BC0716D81E565A8100FED2F4 /* Assets.xcassets */,
+				BC0716DA1E565A8100FED2F4 /* LaunchScreen.storyboard */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BC0716FB1E565D4500FED2F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BC0716FE1E5660FD00FED2F4 /* NetworkManagerTest.swift */,
+				BC0716FC1E565D5E00FED2F4 /* RouterTest.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BC0717001E5661CB00FED2F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC4892271E56891800088AC7 /* BookItemTest.swift */,
+				BC4892291E56891800088AC7 /* BookTotalSearchResultsTest.swift */,
+				BC48922A1E56891800088AC7 /* MocBookTotalList.swift */,
+				BC4892281E56891800088AC7 /* booktotal_search.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC0717031E56622D00FED2F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC0717041E56623D00FED2F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC0717051E56624C00FED2F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0716CD1E565A8100FED2F4 /* ios-rakuten-api-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0716EB1E565A8100FED2F4 /* Build configuration list for PBXNativeTarget "ios-rakuten-api-demo" */;
+			buildPhases = (
+				0A4E8195CDE002F2E6B326A7 /* [CP] Check Pods Manifest.lock */,
+				BC0716CA1E565A8100FED2F4 /* Sources */,
+				BC0716CB1E565A8100FED2F4 /* Frameworks */,
+				BC0716CC1E565A8100FED2F4 /* Resources */,
+				E4FD1C6BA00033146128CAAD /* [CP] Embed Pods Frameworks */,
+				CC3BC45EC6665859C1A9F4E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-rakuten-api-demo";
+			productName = "ios-rakuten-api-demo";
+			productReference = BC0716CE1E565A8100FED2F4 /* ios-rakuten-api-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC0716E11E565A8100FED2F4 /* ios-rakuten-api-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0716EE1E565A8100FED2F4 /* Build configuration list for PBXNativeTarget "ios-rakuten-api-demoTests" */;
+			buildPhases = (
+				5243B26864079A89A671C4BE /* [CP] Check Pods Manifest.lock */,
+				BC0716DE1E565A8100FED2F4 /* Sources */,
+				BC0716DF1E565A8100FED2F4 /* Frameworks */,
+				BC0716E01E565A8100FED2F4 /* Resources */,
+				A5C3977774347A7FCC18142A /* [CP] Embed Pods Frameworks */,
+				1E6F9C1ADB20B85CECF0A29C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC0716E41E565A8100FED2F4 /* PBXTargetDependency */,
+			);
+			name = "ios-rakuten-api-demoTests";
+			productName = "ios-rakuten-api-demoTests";
+			productReference = BC0716E21E565A8100FED2F4 /* ios-rakuten-api-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0716C61E565A8100FED2F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kushida　Eiji";
+				TargetAttributes = {
+					BC0716CD1E565A8100FED2F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UE5DCQPTRB;
+						ProvisioningStyle = Automatic;
+					};
+					BC0716E11E565A8100FED2F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UE5DCQPTRB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC0716CD1E565A8100FED2F4;
+					};
+				};
+			};
+			buildConfigurationList = BC0716C91E565A8100FED2F4 /* Build configuration list for PBXProject "ios-rakuten-api-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC0716C51E565A8100FED2F4;
+			productRefGroup = BC0716CF1E565A8100FED2F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0716CD1E565A8100FED2F4 /* ios-rakuten-api-demo */,
+				BC0716E11E565A8100FED2F4 /* ios-rakuten-api-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0716CC1E565A8100FED2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0716DC1E565A8100FED2F4 /* LaunchScreen.storyboard in Resources */,
+				BC0716D91E565A8100FED2F4 /* Assets.xcassets in Resources */,
+				BC0716D71E565A8100FED2F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0716E01E565A8100FED2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC48922C1E56891800088AC7 /* booktotal_search.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A4E8195CDE002F2E6B326A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E6F9C1ADB20B85CECF0A29C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5243B26864079A89A671C4BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5C3977774347A7FCC18142A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3BC45EC6665859C1A9F4E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-rakuten-api-demo/Pods-ios-rakuten-api-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4FD1C6BA00033146128CAAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-rakuten-api-demo/Pods-ios-rakuten-api-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0716CA1E565A8100FED2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0716F51E565C4200FED2F4 /* NetworkManager.swift in Sources */,
+				BC4892251E5688E300088AC7 /* BookTotalSearchParamsBuilder.swift in Sources */,
+				BC4892241E5688E300088AC7 /* BookItem.swift in Sources */,
+				BC0716D41E565A8100FED2F4 /* ViewController.swift in Sources */,
+				BC0716F71E565C6C00FED2F4 /* Router.swift in Sources */,
+				BC0716D21E565A8100FED2F4 /* AppDelegate.swift in Sources */,
+				BC4892261E5688E300088AC7 /* BookTotalSearchResults.swift in Sources */,
+				BC0716F31E565C1900FED2F4 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0716DE1E565A8100FED2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC48922D1E56891800088AC7 /* BookTotalSearchResultsTest.swift in Sources */,
+				BC0716FF1E5660FD00FED2F4 /* NetworkManagerTest.swift in Sources */,
+				BC0716FD1E565D5E00FED2F4 /* RouterTest.swift in Sources */,
+				BC0716E71E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift in Sources */,
+				BC48922B1E56891800088AC7 /* BookItemTest.swift in Sources */,
+				BC48922E1E56891800088AC7 /* MocBookTotalList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC0716E41E565A8100FED2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC0716CD1E565A8100FED2F4 /* ios-rakuten-api-demo */;
+			targetProxy = BC0716E31E565A8100FED2F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC0716D51E565A8100FED2F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0716D61E565A8100FED2F4 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		BC0716DA1E565A8100FED2F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0716DB1E565A8100FED2F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0716E91E565A8100FED2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC0716EA1E565A8100FED2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0716EC1E565A8100FED2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C07387EE2C2EC8BE2ED676 /* Pods-ios-rakuten-api-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-rakuten-api-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-rakuten-api-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC0716ED1E565A8100FED2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942EF014B934E2377ABEF38E /* Pods-ios-rakuten-api-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-rakuten-api-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-rakuten-api-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BC0716EF1E565A8100FED2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E1DC958F5C602B58AB3D69 /* Pods-ios-rakuten-api-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-rakuten-api-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-rakuten-api-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-rakuten-api-demo.app/ios-rakuten-api-demo";
+			};
+			name = Debug;
+		};
+		BC0716F01E565A8100FED2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A2942E7D629F7AF99DFB02 /* Pods-ios-rakuten-api-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-rakuten-api-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-rakuten-api-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-rakuten-api-demo.app/ios-rakuten-api-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0716C91E565A8100FED2F4 /* Build configuration list for PBXProject "ios-rakuten-api-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0716E91E565A8100FED2F4 /* Debug */,
+				BC0716EA1E565A8100FED2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0716EB1E565A8100FED2F4 /* Build configuration list for PBXNativeTarget "ios-rakuten-api-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0716EC1E565A8100FED2F4 /* Debug */,
+				BC0716ED1E565A8100FED2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0716EE1E565A8100FED2F4 /* Build configuration list for PBXNativeTarget "ios-rakuten-api-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0716EF1E565A8100FED2F4 /* Debug */,
+				BC0716F01E565A8100FED2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0716C61E565A8100FED2F4 /* Project object */;
+}

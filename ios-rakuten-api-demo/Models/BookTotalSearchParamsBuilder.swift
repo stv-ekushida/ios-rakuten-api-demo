@@ -10,13 +10,13 @@ import UIKit
 
 final class BookTotalSearchParamsBuilder {
     
-    static func create(keyword: String, page: Int) -> [String: Any] {
+    static func create(title: String, page: Int) -> [String: Any] {
         
         return [
-            "applicationId":"37e722ba9b54f161df2000054ab79b71",
+            "applicationId":"1060129957786735111",
             "format":"json",
-            "booksGenreId":"000",
-            "keyword": keyword,
+            "booksGenreId":"001",
+            "title": title,
             "page": "\(page)"
         ]
     }

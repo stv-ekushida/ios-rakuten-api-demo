@@ -14,13 +14,13 @@ class BookTotalSearchResultsTest: XCTestCase {
     var result: BookTotalSearchResults?
     
     override func setUp() {
-        super.setUp()
-        
+        super.setUp()        
         result = MocBookTotalList().feachTestData()
     }
     
     override func tearDown() {
         super.tearDown()
+        result = nil
     }
     
     func testBookTotalSearchResults() {        

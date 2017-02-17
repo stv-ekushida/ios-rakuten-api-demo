@@ -21,6 +21,7 @@ class BookItemTests: XCTestCase {
     
     override func tearDown() {
         super.tearDown()
+        result = nil
     }
     
     func testBookTotalSearchResults() {

@@ -26,6 +26,10 @@
 		BC48922D1E56891800088AC7 /* BookTotalSearchResultsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892291E56891800088AC7 /* BookTotalSearchResultsTest.swift */; };
 		BC48922E1E56891800088AC7 /* MocBookTotalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48922A1E56891800088AC7 /* MocBookTotalList.swift */; };
 		BC4892301E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48922F1E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift */; };
+		BCC3F54D1E56B00100BC1B62 /* SpyBookTotalSearchAPILoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3F54C1E56B00100BC1B62 /* SpyBookTotalSearchAPILoadable.swift */; };
+		BCC3F5501E56B06400BC1B62 /* BookTotalSearchAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3F54F1E56B06400BC1B62 /* BookTotalSearchAPITests.swift */; };
+		BCE10C8C1E56ACB800A1AF3D /* BookTotalSearchLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE10C8B1E56ACB800A1AF3D /* BookTotalSearchLoadable.swift */; };
+		BCE10C8E1E56AD4100A1AF3D /* BookTotalSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE10C8D1E56AD4100A1AF3D /* BookTotalSearchAPI.swift */; };
 		C36EE97A00AC15EF1FAB6D21 /* Pods_ios_rakuten_api_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6263609ABA885E0000C153 /* Pods_ios_rakuten_api_demoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +70,10 @@
 		BC4892291E56891800088AC7 /* BookTotalSearchResultsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchResultsTest.swift; sourceTree = "<group>"; };
 		BC48922A1E56891800088AC7 /* MocBookTotalList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MocBookTotalList.swift; sourceTree = "<group>"; };
 		BC48922F1E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchParamsBuilderTests.swift; sourceTree = "<group>"; };
+		BCC3F54C1E56B00100BC1B62 /* SpyBookTotalSearchAPILoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpyBookTotalSearchAPILoadable.swift; sourceTree = "<group>"; };
+		BCC3F54F1E56B06400BC1B62 /* BookTotalSearchAPITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchAPITests.swift; sourceTree = "<group>"; };
+		BCE10C8B1E56ACB800A1AF3D /* BookTotalSearchLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchLoadable.swift; sourceTree = "<group>"; };
+		BCE10C8D1E56AD4100A1AF3D /* BookTotalSearchAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchAPI.swift; sourceTree = "<group>"; };
 		C5A2942E7D629F7AF99DFB02 /* Pods-ios-rakuten-api-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-rakuten-api-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB6263609ABA885E0000C153 /* Pods_ios_rakuten_api_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_rakuten_api_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -171,6 +179,8 @@
 				BC4892211E5688E300088AC7 /* BookItem.swift */,
 				BC4892221E5688E300088AC7 /* BookTotalSearchParamsBuilder.swift */,
 				BC4892231E5688E300088AC7 /* BookTotalSearchResults.swift */,
+				BCE10C8B1E56ACB800A1AF3D /* BookTotalSearchLoadable.swift */,
+				BCE10C8D1E56AD4100A1AF3D /* BookTotalSearchAPI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,11 +216,12 @@
 		BC0717001E5661CB00FED2F4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BCC3F54E1E56B04800BC1B62 /* Moc */,
 				BC4892271E56891800088AC7 /* BookItemTest.swift */,
 				BC48922F1E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift */,
 				BC4892291E56891800088AC7 /* BookTotalSearchResultsTest.swift */,
-				BC48922A1E56891800088AC7 /* MocBookTotalList.swift */,
 				BC4892281E56891800088AC7 /* booktotal_search.json */,
+				BCC3F54F1E56B06400BC1B62 /* BookTotalSearchAPITests.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,6 +245,15 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BCC3F54E1E56B04800BC1B62 /* Moc */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3F54C1E56B00100BC1B62 /* SpyBookTotalSearchAPILoadable.swift */,
+				BC48922A1E56891800088AC7 /* MocBookTotalList.swift */,
+			);
+			name = Moc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE10C8C1E56ACB800A1AF3D /* BookTotalSearchLoadable.swift in Sources */,
 				BC0716F51E565C4200FED2F4 /* NetworkManager.swift in Sources */,
 				BC4892251E5688E300088AC7 /* BookTotalSearchParamsBuilder.swift in Sources */,
 				BC4892241E5688E300088AC7 /* BookItem.swift in Sources */,
@@ -448,6 +469,7 @@
 				BC0716F71E565C6C00FED2F4 /* Router.swift in Sources */,
 				BC0716D21E565A8100FED2F4 /* AppDelegate.swift in Sources */,
 				BC4892261E5688E300088AC7 /* BookTotalSearchResults.swift in Sources */,
+				BCE10C8E1E56AD4100A1AF3D /* BookTotalSearchAPI.swift in Sources */,
 				BC0716F31E565C1900FED2F4 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +480,8 @@
 			files = (
 				BC48922D1E56891800088AC7 /* BookTotalSearchResultsTest.swift in Sources */,
 				BC0716FF1E5660FD00FED2F4 /* NetworkManagerTest.swift in Sources */,
+				BCC3F5501E56B06400BC1B62 /* BookTotalSearchAPITests.swift in Sources */,
+				BCC3F54D1E56B00100BC1B62 /* SpyBookTotalSearchAPILoadable.swift in Sources */,
 				BC4892301E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift in Sources */,
 				BC0716FD1E565D5E00FED2F4 /* RouterTest.swift in Sources */,
 				BC48922B1E56891800088AC7 /* BookItemTest.swift in Sources */,
@@ -592,6 +616,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73C07387EE2C2EC8BE2ED676 /* Pods-ios-rakuten-api-demo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UE5DCQPTRB;
 				INFOPLIST_FILE = "ios-rakuten-api-demo/Info.plist";
@@ -606,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 942EF014B934E2377ABEF38E /* Pods-ios-rakuten-api-demo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UE5DCQPTRB;
 				INFOPLIST_FILE = "ios-rakuten-api-demo/Info.plist";

@@ -20,7 +20,7 @@ enum Router: URLRequestConvertible {
             
             switch self {
             case .BookTotalSearch(let params):
-                return (.get, "", params)
+                return (.get, "BooksBook/Search/20130522", params)
             }
         }()
         

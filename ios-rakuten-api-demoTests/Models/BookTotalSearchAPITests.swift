@@ -1,0 +1,77 @@
+//
+//  BookTotalSearchAPITests.swift
+//  ios-rakuten-api-demo
+//
+//  Created by Eiji Kushida on 2017/02/17.
+//  Copyright © 2017年 Kushida　Eiji. All rights reserved.
+//
+
+import XCTest
+@testable import ios_rakuten_api_demo
+
+class BookTotalSearchAPITests: XCTestCase {
+    
+    let api = BookTotalSearchAPI()
+    let loadable = SpyBookTotalSearchAPILoadable()
+    
+    override func setUp() {
+        super.setUp()
+        api.loadable = loadable
+    }
+    
+    override func tearDown() {
+        super.tearDown()
+        api.loadable = nil
+    }
+    
+    func testSearchKeywordSwift() {
+        
+        let exp = expectation(description: "「Swift」で検索したときのテスト")
+        loadable.asyncExpectation = exp
+        
+        api.fetch(title: "Swift")
+        
+        waitForExpectations(timeout: 1) { error in
+            if let error = error {
+                XCTFail("waitForExpectationsエラー: \(error)")
+            }
+            
+            switch self.loadable.result! {
+            case .normal(let result) :
+                XCTAssertNotNil(result)
+                XCTAssertTrue(result.items.count > 0)
+                
+            case .error(let error) :
+                XCTFail(error.localizedDescription)
+
+            default:
+                XCTFail("バグです")
+            }
+        }
+    }
+    
+    func testSearchKeywordNoData() {
+        
+        let exp = expectation(description: "該当データがないときのテスト")
+        loadable.asyncExpectation = exp
+        
+        api.fetch(title: "Swiあああああft")
+        
+        waitForExpectations(timeout: 1) { error in
+            if let error = error {
+                XCTFail("waitForExpectationsエラー: \(error)")
+            }
+            
+            switch self.loadable.result! {
+            case .noData:
+                XCTAssertTrue(true)
+                
+            case .error(let error) :
+                XCTFail(error.localizedDescription)
+                
+            default:
+                XCTFail("バグです")
+            }
+        }
+    }
+}

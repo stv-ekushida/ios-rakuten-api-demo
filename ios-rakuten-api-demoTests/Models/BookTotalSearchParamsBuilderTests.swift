@@ -21,12 +21,12 @@ class BookTotalSearchParamsBuilderTests: XCTestCase {
     
     func testBookTotalSearchParamsBuilder() {
         
-        let params = BookTotalSearchParamsBuilder.create(keyword: "Swift", page: 1) as? [String: String]
+        let params = BookTotalSearchParamsBuilder.create(title: "Swift", page: 1) as? [String: String]
         
-        XCTAssertEqual(params?["applicationId"], "37e722ba9b54f161df2000054ab79b71")
+        XCTAssertEqual(params?["applicationId"], "1060129957786735111")
         XCTAssertEqual(params?["format"], "json")
-        XCTAssertEqual(params?["booksGenreId"], "000")
-        XCTAssertEqual(params?["keyword"], "Swift")
+        XCTAssertEqual(params?["booksGenreId"], "001")
+        XCTAssertEqual(params?["title"], "Swift")
         XCTAssertEqual(params?["page"], "1")
     }
 }

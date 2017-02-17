@@ -28,7 +28,7 @@ class RouterTest: XCTestCase {
         
         let router = Router.BookTotalSearch(["format":"json","keyword":"Swift"])
         let urlRequest = try! router.asURLRequest()        
-        XCTAssertEqual(urlRequest.description, "https://app.rakuten.co.jp/services/api/?format=json&keyword=Swift")
+        XCTAssertEqual(urlRequest.description, "https://app.rakuten.co.jp/services/api/BooksBook/Search/20130522?format=json&keyword=Swift")
     }
 }
 

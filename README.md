@@ -1,5 +1,5 @@
 # ios-rakuten-api-demo
-楽天APIのデモで(Swift3)
+楽天API(楽天ブックス書籍検索API)を利用したサンプル
 
 ## API Detail
 https://webservice.rakuten.co.jp/api/booksbooksearch/

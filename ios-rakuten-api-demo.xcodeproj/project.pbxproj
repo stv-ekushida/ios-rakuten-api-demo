@@ -13,7 +13,6 @@
 		BC0716D71E565A8100FED2F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0716D51E565A8100FED2F4 /* Main.storyboard */; };
 		BC0716D91E565A8100FED2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0716D81E565A8100FED2F4 /* Assets.xcassets */; };
 		BC0716DC1E565A8100FED2F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0716DA1E565A8100FED2F4 /* LaunchScreen.storyboard */; };
-		BC0716E71E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716E61E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift */; };
 		BC0716F31E565C1900FED2F4 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716F21E565C1900FED2F4 /* APIClient.swift */; };
 		BC0716F51E565C4200FED2F4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716F41E565C4200FED2F4 /* NetworkManager.swift */; };
 		BC0716F71E565C6C00FED2F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716F61E565C6C00FED2F4 /* Router.swift */; };
@@ -26,6 +25,7 @@
 		BC48922C1E56891800088AC7 /* booktotal_search.json in Resources */ = {isa = PBXBuildFile; fileRef = BC4892281E56891800088AC7 /* booktotal_search.json */; };
 		BC48922D1E56891800088AC7 /* BookTotalSearchResultsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892291E56891800088AC7 /* BookTotalSearchResultsTest.swift */; };
 		BC48922E1E56891800088AC7 /* MocBookTotalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48922A1E56891800088AC7 /* MocBookTotalList.swift */; };
+		BC4892301E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48922F1E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift */; };
 		C36EE97A00AC15EF1FAB6D21 /* Pods_ios_rakuten_api_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6263609ABA885E0000C153 /* Pods_ios_rakuten_api_demoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +52,6 @@
 		BC0716DB1E565A8100FED2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC0716DD1E565A8100FED2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC0716E21E565A8100FED2F4 /* ios-rakuten-api-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-rakuten-api-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC0716E61E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_rakuten_api_demoTests.swift; sourceTree = "<group>"; };
 		BC0716E81E565A8100FED2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC0716F21E565C1900FED2F4 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		BC0716F41E565C4200FED2F4 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		BC4892281E56891800088AC7 /* booktotal_search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = booktotal_search.json; sourceTree = "<group>"; };
 		BC4892291E56891800088AC7 /* BookTotalSearchResultsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchResultsTest.swift; sourceTree = "<group>"; };
 		BC48922A1E56891800088AC7 /* MocBookTotalList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MocBookTotalList.swift; sourceTree = "<group>"; };
+		BC48922F1E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTotalSearchParamsBuilderTests.swift; sourceTree = "<group>"; };
 		C5A2942E7D629F7AF99DFB02 /* Pods-ios-rakuten-api-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-rakuten-api-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-rakuten-api-demoTests/Pods-ios-rakuten-api-demoTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB6263609ABA885E0000C153 /* Pods_ios_rakuten_api_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_rakuten_api_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -151,7 +151,6 @@
 				BC0716FB1E565D4500FED2F4 /* Utils */,
 				BC0717051E56624C00FED2F4 /* Views */,
 				BC0716E81E565A8100FED2F4 /* Info.plist */,
-				BC0716E61E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift */,
 			);
 			path = "ios-rakuten-api-demoTests";
 			sourceTree = "<group>";
@@ -208,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				BC4892271E56891800088AC7 /* BookItemTest.swift */,
+				BC48922F1E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift */,
 				BC4892291E56891800088AC7 /* BookTotalSearchResultsTest.swift */,
 				BC48922A1E56891800088AC7 /* MocBookTotalList.swift */,
 				BC4892281E56891800088AC7 /* booktotal_search.json */,
@@ -458,8 +458,8 @@
 			files = (
 				BC48922D1E56891800088AC7 /* BookTotalSearchResultsTest.swift in Sources */,
 				BC0716FF1E5660FD00FED2F4 /* NetworkManagerTest.swift in Sources */,
+				BC4892301E568A5F00088AC7 /* BookTotalSearchParamsBuilderTests.swift in Sources */,
 				BC0716FD1E565D5E00FED2F4 /* RouterTest.swift in Sources */,
-				BC0716E71E565A8100FED2F4 /* ios_rakuten_api_demoTests.swift in Sources */,
 				BC48922B1E56891800088AC7 /* BookItemTest.swift in Sources */,
 				BC48922E1E56891800088AC7 /* MocBookTotalList.swift in Sources */,
 			);

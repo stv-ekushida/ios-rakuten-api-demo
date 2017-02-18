@@ -1,5 +1,5 @@
 //
-//  BookTotalSearchResults.swift
+//  BooksBookSearchResults.swift
 //  ios-rakuten-api-demo
 //
 //  Created by Eiji Kushida on 2017/02/17.
@@ -9,7 +9,7 @@
 import UIKit
 import ObjectMapper
 
-struct BookTotalSearchResults: Mappable {
+struct BooksBookSearchResults: Mappable {
     
     var count = 0
     var page = 0

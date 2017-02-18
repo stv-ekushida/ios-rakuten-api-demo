@@ -1,5 +1,5 @@
 //
-//  BookTotalSearchLoadable.swift
+//  BooksBookSearchLoadable.swift
 //  ios-rakuten-api-demo
 //
 //  Created by Eiji Kushida on 2017/02/17.
@@ -8,13 +8,13 @@
 
 import Foundation
 
-enum BookTotalSearchStatus {
+enum BooksBookSearchStatus {
     case none
-    case normal(BookTotalSearchResults)
+    case normal(BooksBookSearchResults)
     case noData
     case error(Error)
 }
 
-protocol BookTotalSearchLoadable {
-    func setResult(result: BookTotalSearchStatus)
+protocol BooksBookSearchLoadable {
+    func setResult(result: BooksBookSearchStatus)
 }

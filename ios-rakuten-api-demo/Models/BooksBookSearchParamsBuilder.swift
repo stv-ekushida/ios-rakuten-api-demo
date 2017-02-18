@@ -1,5 +1,5 @@
 //
-//  BookTotalSearchParamsBuilder.swift
+//  BooksBookSearchParamsBuilder.swift
 //  ios-rakuten-api-demo
 //
 //  Created by Kushida　Eiji on 2017/02/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class BookTotalSearchParamsBuilder {
+final class BooksBookSearchParamsBuilder {
     
     static func create(title: String, page: Int) -> [String: Any] {
         

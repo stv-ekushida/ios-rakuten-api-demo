@@ -12,14 +12,14 @@ enum Router: URLRequestConvertible {
     
     static let baseURLString = "https://app.rakuten.co.jp/services/api/"
     
-    case BookTotalSearch([String: Any])
+    case BooksBookSearch([String: Any])
     
     func asURLRequest() throws -> URLRequest {
         
         let (method, path, parameters): (HTTPMethod, String, [String: Any]) = {
             
             switch self {
-            case .BookTotalSearch(let params):
+            case .BooksBookSearch(let params):
                 return (.get, "BooksBook/Search/20130522", params)
             }
         }()

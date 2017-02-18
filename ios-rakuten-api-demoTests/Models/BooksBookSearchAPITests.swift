@@ -1,5 +1,5 @@
 //
-//  BookTotalSearchAPITests.swift
+//  BooksBookSearchAPITests.swift
 //  ios-rakuten-api-demo
 //
 //  Created by Eiji Kushida on 2017/02/17.
@@ -9,10 +9,10 @@
 import XCTest
 @testable import ios_rakuten_api_demo
 
-class BookTotalSearchAPITests: XCTestCase {
+class BooksBookSearchAPITests: XCTestCase {
     
-    let api = BookTotalSearchAPI()
-    let loadable = SpyBookTotalSearchAPILoadable()
+    let api = BooksBookSearchAPI()
+    let loadable = SpyBooksBookSearchAPILoadable()
     
     override func setUp() {
         super.setUp()

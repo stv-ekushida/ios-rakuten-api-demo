@@ -1,5 +1,5 @@
 //
-//  MocBookTotalList.swift
+//  MocBooksBookList.swift
 //  ios-rakuten-api-demo
 //
 //  Created by Eiji Kushida on 2017/02/17.
@@ -12,12 +12,12 @@ import ObjectMapper
 
 @testable import ios_rakuten_api_demo
 
-final class MocBookTotalList: XCTestCase {
+final class MocBooksBookList: XCTestCase {
     
-    func feachTestData() -> BookTotalSearchResults{
+    func feachTestData() -> BooksBookSearchResults{
         
         let bundle = Bundle(for: type(of: self))
-        let path = bundle.path(forResource: "booktotal_search", ofType: "json")
+        let path = bundle.path(forResource: "booksbook_search", ofType: "json")
         if let path = path {
             
             let fileHandle = FileHandle(forReadingAtPath: path)
@@ -30,7 +30,7 @@ final class MocBookTotalList: XCTestCase {
                 
                 if let json = json {
                     
-                    if let searchResult = Mapper<BookTotalSearchResults>().map(JSONString: json) {
+                    if let searchResult = Mapper<BooksBookSearchResults>().map(JSONString: json) {
                         return searchResult
                     }
                 }

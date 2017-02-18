@@ -1,5 +1,5 @@
 //
-//  BookTotalSearchAPI.swift
+//  BooksBookSearchAPI.swift
 //  ios-rakuten-api-demo
 //
 //  Created by Eiji Kushida on 2017/02/17.
@@ -8,14 +8,14 @@
 
 import ObjectMapper
 
-final class BookTotalSearchAPI {
+final class BooksBookSearchAPI {
     
-    var loadable: BookTotalSearchLoadable?
+    var loadable: BooksBookSearchLoadable?
     
     func fetch(title: String) {
         
-        let router = Router.BookTotalSearch(
-            BookTotalSearchParamsBuilder.create(title: title, page: 1)
+        let router = Router.BooksBookSearch(
+            BooksBookSearchParamsBuilder.create(title: title, page: 1)
         )
         
         print(try! router.asURLRequest())
@@ -25,7 +25,7 @@ final class BookTotalSearchAPI {
             switch response {
             case .success(let result) :
                 
-                if let searchResult = Mapper<BookTotalSearchResults>().map(JSONObject: result) {
+                if let searchResult = Mapper<BooksBookSearchResults>().map(JSONObject: result) {
                     
                     let result = self?.setResult(searchResult: searchResult)
                     self?.loadable?.setResult(result: result!)
@@ -39,7 +39,7 @@ final class BookTotalSearchAPI {
         }
     }
         
-    private func setResult(searchResult: BookTotalSearchResults) -> BookTotalSearchStatus {
+    private func setResult(searchResult: BooksBookSearchResults) -> BooksBookSearchStatus {
         return searchResult.items.count > 0 ? .normal(searchResult) : .noData
     }
 }

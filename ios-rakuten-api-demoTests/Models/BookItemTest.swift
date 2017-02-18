@@ -11,12 +11,12 @@ import XCTest
 
 class BookItemTests: XCTestCase {
     
-    var result: BookTotalSearchResults?
+    var result: BooksBookSearchResults?
     
     override func setUp() {
         super.setUp()
         
-        result = MocBookTotalList().feachTestData()
+        result = MocBooksBookList().feachTestData()
     }
     
     override func tearDown() {
@@ -24,7 +24,7 @@ class BookItemTests: XCTestCase {
         result = nil
     }
     
-    func testBookTotalSearchResults() {
+    func testBooksBookSearchResults() {
         
         let item = result?.items.first
         

@@ -1,5 +1,5 @@
 //
-//  SpyBookTotalSearchAPILoadable.swift
+//  SpyBooksBookSearchAPILoadable.swift
 //  ios-rakuten-api-demo
 //
 //  Created by Eiji Kushida on 2017/02/17.
@@ -9,15 +9,15 @@
 import XCTest
 @testable import ios_rakuten_api_demo
 
-final class SpyBookTotalSearchAPILoadable: BookTotalSearchLoadable {
+final class SpyBooksBookSearchAPILoadable: BooksBookSearchLoadable {
     
-    var result: BookTotalSearchStatus?
+    var result: BooksBookSearchStatus?
     var asyncExpectation: XCTestExpectation?
     
-    func setResult(result: BookTotalSearchStatus) {
+    func setResult(result: BooksBookSearchStatus) {
         
         guard let expectation = asyncExpectation else {
-            XCTFail("SpyBookTotalSearchAPIDelegateが正しく設定されていない")
+            XCTFail("SpyBooksBookSearchAPIDelegateが正しく設定されていない")
             return
         }
         

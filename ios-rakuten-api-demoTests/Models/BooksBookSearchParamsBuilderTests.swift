@@ -1,5 +1,5 @@
 //
-//  BookTotalSearchParamsBuilderTests.swift
+//  BooksBookSearchParamsBuilderTests.swift
 //  ios-rakuten-api-demo
 //
 //  Created by Eiji Kushida on 2017/02/17.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import ios_rakuten_api_demo
 
-class BookTotalSearchParamsBuilderTests: XCTestCase {
+class BooksBookSearchParamsBuilderTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -19,9 +19,9 @@ class BookTotalSearchParamsBuilderTests: XCTestCase {
         super.tearDown()
     }
     
-    func testBookTotalSearchParamsBuilder() {
+    func testBooksBookSearchParamsBuilder() {
         
-        let params = BookTotalSearchParamsBuilder.create(title: "Swift", page: 1) as? [String: String]
+        let params = BooksBookSearchParamsBuilder.create(title: "Swift", page: 1) as? [String: String]
         
         XCTAssertEqual(params?["applicationId"], "1060129957786735111")
         XCTAssertEqual(params?["format"], "json")

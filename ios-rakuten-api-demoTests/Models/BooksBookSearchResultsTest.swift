@@ -1,5 +1,5 @@
 //
-//  BookTotalSearchResultsTest.swift
+//  BooksBookSearchResultsTest.swift
 //  ios-rakuten-api-demo
 //
 //  Created by Eiji Kushida on 2017/02/17.
@@ -9,13 +9,13 @@
 import XCTest
 @testable import ios_rakuten_api_demo
 
-class BookTotalSearchResultsTest: XCTestCase {
+class BooksBookSearchResultsTest: XCTestCase {
     
-    var result: BookTotalSearchResults?
+    var result: BooksBookSearchResults?
     
     override func setUp() {
         super.setUp()        
-        result = MocBookTotalList().feachTestData()
+        result = MocBooksBookList().feachTestData()
     }
     
     override func tearDown() {
@@ -23,7 +23,7 @@ class BookTotalSearchResultsTest: XCTestCase {
         result = nil
     }
     
-    func testBookTotalSearchResults() {        
+    func testBooksBookSearchResults() {
         XCTAssertEqual(result?.count, 148)
         XCTAssertEqual(result?.page, 1)
         XCTAssertEqual(result?.pageCount, 5)

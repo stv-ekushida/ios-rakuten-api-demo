@@ -12,13 +12,11 @@ final class BooksBookSearchAPI {
     
     var loadable: BooksBookSearchLoadable?
     
-    func fetch(title: String) {
+    func fetch(title: String, page: Int) {
         
         let router = Router.BooksBookSearch(
-            BooksBookSearchParamsBuilder.create(title: title, page: 1)
+            BooksBookSearchParamsBuilder.create(title: title, page: page)
         )
-        
-        print(try! router.asURLRequest())
         
         APIClient().request(router: router) { [weak self] (response) in
             
@@ -27,8 +25,9 @@ final class BooksBookSearchAPI {
                 
                 if let searchResult = Mapper<BooksBookSearchResults>().map(JSONObject: result) {
                     
-                    let result = self?.setResult(searchResult: searchResult)
-                    self?.loadable?.setResult(result: result!)
+                    if let result = self?.setResult(searchResult: searchResult) {
+                        self?.loadable?.setResult(result: result)
+                    }
                 }
                 break
                 

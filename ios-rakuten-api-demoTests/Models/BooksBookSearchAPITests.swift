@@ -29,23 +29,28 @@ class BooksBookSearchAPITests: XCTestCase {
         let exp = expectation(description: "「Swift」で検索したときのテスト")
         loadable.asyncExpectation = exp
         
-        api.fetch(title: "Swift")
+        api.fetch(title: "Swift", page: 1)
         
-        waitForExpectations(timeout: 1) { error in
+        waitForExpectations(timeout: 3) { error in
             if let error = error {
                 XCTFail("waitForExpectationsエラー: \(error)")
             }
             
-            switch self.loadable.result! {
-            case .normal(let result) :
-                XCTAssertNotNil(result)
-                XCTAssertTrue(result.items.count > 0)
-                
-            case .error(let error) :
-                XCTFail(error.localizedDescription)
+            if let result = self.loadable.result {
+             
+                switch result {
+                case .normal(let result) :
+                    XCTAssertNotNil(result)
+                    XCTAssertTrue(result.items.count > 0)
+                    XCTAssertEqual(result.page, 1)
+                    
+                case .error(let error) :
+                    XCTFail(error.localizedDescription)
+                    
+                default:
+                    XCTFail("バグです")
+                }
 
-            default:
-                XCTFail("バグです")
             }
         }
     }
@@ -55,22 +60,24 @@ class BooksBookSearchAPITests: XCTestCase {
         let exp = expectation(description: "該当データがないときのテスト")
         loadable.asyncExpectation = exp
         
-        api.fetch(title: "Swiあああああft")
+        api.fetch(title: "Swiあああああft", page: 1)
         
-        waitForExpectations(timeout: 1) { error in
+        waitForExpectations(timeout: 3) { error in
             if let error = error {
                 XCTFail("waitForExpectationsエラー: \(error)")
             }
             
-            switch self.loadable.result! {
-            case .noData:
-                XCTAssertTrue(true)
-                
-            case .error(let error) :
-                XCTFail(error.localizedDescription)
-                
-            default:
-                XCTFail("バグです")
+            if let result = self.loadable.result {
+                switch result {
+                case .noData:
+                    XCTAssertTrue(true)
+                    
+                case .error(let error) :
+                    XCTFail(error.localizedDescription)
+                    
+                default:
+                    XCTFail("バグです")
+                }
             }
         }
     }

@@ -9,8 +9,8 @@
 import Alamofire
 
 enum Result {
-    case Success(Any)
-    case Failure(Error)
+    case success(Any)
+    case failure(Error)
 }
 
 final class APIClient {
@@ -21,12 +21,12 @@ final class APIClient {
         Alamofire.request(router).responseJSON  { response in
             switch response.result {
             case .success(let value):
-                completionHandler(Result.Success(value))
+                completionHandler(Result.success(value))
                 
             case .failure:
                 
                 if let error = response.result.error {
-                    completionHandler(Result.Failure(error))
+                    completionHandler(Result.failure(error))
                 } else {
                     fatalError("エラーのインスタンスがnil")
                 }

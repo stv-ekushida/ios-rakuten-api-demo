@@ -18,6 +18,11 @@
 		BC0716F71E565C6C00FED2F4 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716F61E565C6C00FED2F4 /* Router.swift */; };
 		BC0716FD1E565D5E00FED2F4 /* RouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716FC1E565D5E00FED2F4 /* RouterTest.swift */; };
 		BC0716FF1E5660FD00FED2F4 /* NetworkManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0716FE1E5660FD00FED2F4 /* NetworkManagerTest.swift */; };
+		BC47800B1E5FCE6F00A22298 /* BooksListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC47800A1E5FCE6F00A22298 /* BooksListCollectionViewCell.swift */; };
+		BC47800D1E5FCEF200A22298 /* BooksListCollectionViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC47800C1E5FCEF200A22298 /* BooksListCollectionViewCellTests.swift */; };
+		BC47800F1E5FD47D00A22298 /* BooksListCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC47800E1E5FD47D00A22298 /* BooksListCollectionView.swift */; };
+		BC4780111E5FD85100A22298 /* MocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4780101E5FD85100A22298 /* MocViewController.swift */; };
+		BC4780131E5FDE6400A22298 /* BooksListCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4780121E5FDE6400A22298 /* BooksListCollectionViewTests.swift */; };
 		BC4892241E5688E300088AC7 /* BookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892211E5688E300088AC7 /* BookItem.swift */; };
 		BC4892251E5688E300088AC7 /* BooksBookSearchParamsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892221E5688E300088AC7 /* BooksBookSearchParamsBuilder.swift */; };
 		BC4892261E5688E300088AC7 /* BooksBookSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4892231E5688E300088AC7 /* BooksBookSearchResults.swift */; };
@@ -62,6 +67,11 @@
 		BC0716F61E565C6C00FED2F4 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		BC0716FC1E565D5E00FED2F4 /* RouterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterTest.swift; sourceTree = "<group>"; };
 		BC0716FE1E5660FD00FED2F4 /* NetworkManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTest.swift; sourceTree = "<group>"; };
+		BC47800A1E5FCE6F00A22298 /* BooksListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksListCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC47800C1E5FCEF200A22298 /* BooksListCollectionViewCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BooksListCollectionViewCellTests.swift; path = "ios-rakuten-api-demo/Views/BooksListCollectionViewCellTests.swift"; sourceTree = SOURCE_ROOT; };
+		BC47800E1E5FD47D00A22298 /* BooksListCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksListCollectionView.swift; sourceTree = "<group>"; };
+		BC4780101E5FD85100A22298 /* MocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MocViewController.swift; sourceTree = "<group>"; };
+		BC4780121E5FDE6400A22298 /* BooksListCollectionViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksListCollectionViewTests.swift; sourceTree = "<group>"; };
 		BC4892211E5688E300088AC7 /* BookItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookItem.swift; sourceTree = "<group>"; };
 		BC4892221E5688E300088AC7 /* BooksBookSearchParamsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksBookSearchParamsBuilder.swift; sourceTree = "<group>"; };
 		BC4892231E5688E300088AC7 /* BooksBookSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksBookSearchResults.swift; sourceTree = "<group>"; };
@@ -236,6 +246,8 @@
 		BC0717041E56623D00FED2F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BC47800A1E5FCE6F00A22298 /* BooksListCollectionViewCell.swift */,
+				BC47800E1E5FD47D00A22298 /* BooksListCollectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -243,6 +255,8 @@
 		BC0717051E56624C00FED2F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BC47800C1E5FCEF200A22298 /* BooksListCollectionViewCellTests.swift */,
+				BC4780121E5FDE6400A22298 /* BooksListCollectionViewTests.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,6 +266,7 @@
 			children = (
 				BCC3F54C1E56B00100BC1B62 /* SpyBookTotalSearchAPILoadable.swift */,
 				BC48922A1E56891800088AC7 /* MocBooksBookList.swift */,
+				BC4780101E5FD85100A22298 /* MocViewController.swift */,
 			);
 			name = Moc;
 			sourceTree = "<group>";
@@ -461,10 +476,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC47800B1E5FCE6F00A22298 /* BooksListCollectionViewCell.swift in Sources */,
 				BCE10C8C1E56ACB800A1AF3D /* BooksBookSearchLoadable.swift in Sources */,
 				BC0716F51E565C4200FED2F4 /* NetworkManager.swift in Sources */,
 				BC4892251E5688E300088AC7 /* BooksBookSearchParamsBuilder.swift in Sources */,
 				BC4892241E5688E300088AC7 /* BookItem.swift in Sources */,
+				BC47800F1E5FD47D00A22298 /* BooksListCollectionView.swift in Sources */,
 				BC0716D41E565A8100FED2F4 /* ViewController.swift in Sources */,
 				BC0716F71E565C6C00FED2F4 /* Router.swift in Sources */,
 				BC0716D21E565A8100FED2F4 /* AppDelegate.swift in Sources */,
@@ -482,7 +499,10 @@
 				BC0716FF1E5660FD00FED2F4 /* NetworkManagerTest.swift in Sources */,
 				BCC3F5501E56B06400BC1B62 /* BooksBookSearchAPITests.swift in Sources */,
 				BCC3F54D1E56B00100BC1B62 /* SpyBookTotalSearchAPILoadable.swift in Sources */,
+				BC4780111E5FD85100A22298 /* MocViewController.swift in Sources */,
+				BC4780131E5FDE6400A22298 /* BooksListCollectionViewTests.swift in Sources */,
 				BC4892301E568A5F00088AC7 /* BooksBookSearchParamsBuilderTests.swift in Sources */,
+				BC47800D1E5FCEF200A22298 /* BooksListCollectionViewCellTests.swift in Sources */,
 				BC0716FD1E565D5E00FED2F4 /* RouterTest.swift in Sources */,
 				BC48922B1E56891800088AC7 /* BookItemTest.swift in Sources */,
 				BC48922E1E56891800088AC7 /* MocBooksBookList.swift in Sources */,

@@ -68,7 +68,7 @@
 		BC0716FC1E565D5E00FED2F4 /* RouterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterTest.swift; sourceTree = "<group>"; };
 		BC0716FE1E5660FD00FED2F4 /* NetworkManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTest.swift; sourceTree = "<group>"; };
 		BC47800A1E5FCE6F00A22298 /* BooksListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksListCollectionViewCell.swift; sourceTree = "<group>"; };
-		BC47800C1E5FCEF200A22298 /* BooksListCollectionViewCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BooksListCollectionViewCellTests.swift; path = "ios-rakuten-api-demo/Views/BooksListCollectionViewCellTests.swift"; sourceTree = SOURCE_ROOT; };
+		BC47800C1E5FCEF200A22298 /* BooksListCollectionViewCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BooksListCollectionViewCellTests.swift; path = BooksListCollectionViewCellTests.swift; sourceTree = "<group>"; };
 		BC47800E1E5FD47D00A22298 /* BooksListCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksListCollectionView.swift; sourceTree = "<group>"; };
 		BC4780101E5FD85100A22298 /* MocViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MocViewController.swift; sourceTree = "<group>"; };
 		BC4780121E5FDE6400A22298 /* BooksListCollectionViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksListCollectionViewTests.swift; sourceTree = "<group>"; };
@@ -187,10 +187,10 @@
 			isa = PBXGroup;
 			children = (
 				BC4892211E5688E300088AC7 /* BookItem.swift */,
+				BCE10C8D1E56AD4100A1AF3D /* BooksBookSearchAPI.swift */,
+				BCE10C8B1E56ACB800A1AF3D /* BooksBookSearchLoadable.swift */,
 				BC4892221E5688E300088AC7 /* BooksBookSearchParamsBuilder.swift */,
 				BC4892231E5688E300088AC7 /* BooksBookSearchResults.swift */,
-				BCE10C8B1E56ACB800A1AF3D /* BooksBookSearchLoadable.swift */,
-				BCE10C8D1E56AD4100A1AF3D /* BooksBookSearchAPI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,10 +228,10 @@
 			children = (
 				BCC3F54E1E56B04800BC1B62 /* Moc */,
 				BC4892271E56891800088AC7 /* BookItemTest.swift */,
+				BCC3F54F1E56B06400BC1B62 /* BooksBookSearchAPITests.swift */,
 				BC48922F1E568A5F00088AC7 /* BooksBookSearchParamsBuilderTests.swift */,
 				BC4892291E56891800088AC7 /* BooksBookSearchResultsTest.swift */,
 				BC4892281E56891800088AC7 /* booksbook_search.json */,
-				BCC3F54F1E56B06400BC1B62 /* BooksBookSearchAPITests.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -246,8 +246,8 @@
 		BC0717041E56623D00FED2F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BC47800A1E5FCE6F00A22298 /* BooksListCollectionViewCell.swift */,
 				BC47800E1E5FD47D00A22298 /* BooksListCollectionView.swift */,
+				BC47800A1E5FCE6F00A22298 /* BooksListCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -264,11 +264,12 @@
 		BCC3F54E1E56B04800BC1B62 /* Moc */ = {
 			isa = PBXGroup;
 			children = (
-				BCC3F54C1E56B00100BC1B62 /* SpyBookTotalSearchAPILoadable.swift */,
 				BC48922A1E56891800088AC7 /* MocBooksBookList.swift */,
 				BC4780101E5FD85100A22298 /* MocViewController.swift */,
+				BCC3F54C1E56B00100BC1B62 /* SpyBookTotalSearchAPILoadable.swift */,
 			);
 			name = Moc;
+			path = Moc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

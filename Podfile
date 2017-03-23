@@ -17,3 +17,9 @@ target 'ios-rakuten-api-demo' do
   end
 
 end
+
+plugin 'cocoapods-keys', {
+  :project => "ios-rakuten-api-demo",
+  :keys => [
+    "applicationId"
+]}

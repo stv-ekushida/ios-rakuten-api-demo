@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Keys.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1EF7D99B9B72BC04A708E95EC86E98CB</key>
+		<key>6A5CAFAE995083EED9EF3C572911E804</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,6 +58,11 @@
 			<true/>
 		</dict>
 		<key>B43918AB915242B851ABEFB5D70BE0AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B49595FE56EA6109F2822CD217BDAEA4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

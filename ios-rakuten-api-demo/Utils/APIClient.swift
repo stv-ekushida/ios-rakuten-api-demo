@@ -15,10 +15,11 @@ enum Result {
 
 final class APIClient {
     
-    func request(router : Router,
-                 completionHandler: @escaping (Result) -> () = {_ in}) {
+    func request(router: Router,
+                 completionHandler: @escaping (Result) -> Void = {_ in
+        }) {
         
-        Alamofire.request(router).responseJSON  { response in
+        Alamofire.request(router).responseJSON { response in
             switch response.result {
             case .success(let value):
                 completionHandler(Result.success(value))

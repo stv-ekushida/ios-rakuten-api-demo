@@ -6,10 +6,12 @@
 //  Copyright © 2017年 Kushida　Eiji. All rights reserved.
 //
 
-import XCTest
 @testable import ios_rakuten_api_demo
+import XCTest
 
 class RouterTest: XCTestCase {
+
+    private let url = "https://app.rakuten.co.jp/services/api/BooksBook/Search/20130522?format=json&keyword=Swift"
     
     override func setUp() {
         super.setUp()
@@ -26,9 +28,14 @@ class RouterTest: XCTestCase {
     
     func testURLRequest() {
         
-        let router = Router.BooksBookSearch(["format":"json","keyword":"Swift"])
-        let urlRequest = try! router.asURLRequest()        
-        XCTAssertEqual(urlRequest.description, "https://app.rakuten.co.jp/services/api/BooksBook/Search/20130522?format=json&keyword=Swift")
+        let router = Router.booksBookSearch(["format": "json",
+                                             "keyword": "Swift"])
+
+        do {
+            let urlRequest = try router.asURLRequest()
+            XCTAssertEqual(urlRequest.description, url)
+        } catch let error {
+            print(error.localizedDescription)
+        }
     }
 }
-

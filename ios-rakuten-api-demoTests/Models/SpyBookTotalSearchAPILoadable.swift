@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Kushida　Eiji. All rights reserved.
 //
 
-import XCTest
 @testable import ios_rakuten_api_demo
+import XCTest
 
 final class SpyBooksBookSearchAPILoadable: BooksBookSearchLoadable {
     

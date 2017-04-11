@@ -6,15 +6,14 @@
 //  Copyright © 2017年 Kushida　Eiji. All rights reserved.
 //
 
-import XCTest
 import Foundation
-import ObjectMapper
-
 @testable import ios_rakuten_api_demo
+import ObjectMapper
+import XCTest
 
 final class MocBooksBookList: XCTestCase {
     
-    func feachTestData() -> BooksBookSearchResults{
+    func feachTestData() -> BooksBookSearchResults {
         
         let bundle = Bundle(for: type(of: self))
         let path = bundle.path(forResource: "booksbook_search", ofType: "json")

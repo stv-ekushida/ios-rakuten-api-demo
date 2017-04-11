@@ -6,19 +6,19 @@
 //  Copyright © 2017年 Kushida　Eiji. All rights reserved.
 //
 
-import UIKit
 import ObjectMapper
+import UIKit
 
 struct BookItem: Mappable {
-    
+
     var title = ""
     var author = ""
     var itemCaption = ""
     var itemUrl = ""
     var mediumImageUrl = ""
-    
+
     init?(map: Map) {}
-    
+
     mutating func mapping(map: Map) {
         title <- map["Item.title"]
         author <- map["Item.author"]

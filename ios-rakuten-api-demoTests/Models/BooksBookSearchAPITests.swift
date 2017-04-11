@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Kushida　Eiji. All rights reserved.
 //
 
-import XCTest
 @testable import ios_rakuten_api_demo
+import XCTest
 
 class BooksBookSearchAPITests: XCTestCase {
     
@@ -41,7 +41,7 @@ class BooksBookSearchAPITests: XCTestCase {
                 switch result {
                 case .normal(let result) :
                     XCTAssertNotNil(result)
-                    XCTAssertTrue(result.items.count > 0)
+                    XCTAssertFalse(result.items.isEmpty)
                     XCTAssertEqual(result.page, 1)
                     
                 case .error(let error) :

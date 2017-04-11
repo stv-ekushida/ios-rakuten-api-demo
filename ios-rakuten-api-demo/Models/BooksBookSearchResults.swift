@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Kushida　Eiji. All rights reserved.
 //
 
-import UIKit
 import ObjectMapper
+import UIKit
 
 struct BooksBookSearchResults: Mappable {
     

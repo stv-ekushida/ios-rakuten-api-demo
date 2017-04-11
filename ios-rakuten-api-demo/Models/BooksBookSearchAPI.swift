@@ -9,17 +9,17 @@
 import ObjectMapper
 
 final class BooksBookSearchAPI {
-    
+
     var loadable: BooksBookSearchLoadable?
-    
+
     func fetch(title: String, page: Int) {
-        
-        let router = Router.BooksBookSearch(
+
+        let router = Router.booksBookSearch(
             BooksBookSearchParamsBuilder.create(title: title, page: page)
         )
-        
+
         APIClient().request(router: router) { [weak self] (response) in
-            
+
             switch response {
             case .success(let result) :
                 
@@ -39,6 +39,6 @@ final class BooksBookSearchAPI {
     }
         
     private func setResult(searchResult: BooksBookSearchResults) -> BooksBookSearchStatus {
-        return searchResult.items.count > 0 ? .normal(searchResult) : .noData
+        return searchResult.items.isEmpty ? .noData : .normal(searchResult)
     }
 }

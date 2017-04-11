@@ -10,7 +10,7 @@ import Alamofire
 
 final class NetworkManager {
     
-    static func isAvailable() -> Bool{
+    static func isAvailable() -> Bool {
         
         let net = NetworkReachabilityManager()
         net?.startListening()
